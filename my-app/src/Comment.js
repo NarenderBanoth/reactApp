@@ -25,9 +25,9 @@ function Comment(props) {
       <UserInfo user={props.author} />
       <div className="Comment-text">{props.text}</div>
       <div className="Comment-date">{formatDate(props.date)}</div>
-      <Welcome name="Shital" />
-      <Welcome name="Naren" />
-      <Welcome name="Sara" />
+      <Welcome name="s7works" />
+      <Welcome name="s7works" />
+      <Welcome name="s7works" />
     </div>
   );
 }
@@ -35,5 +35,5 @@ function Comment(props) {
 export default Comment;
 
 function Welcome(props) {
-  return <h1>Hello, {props.name}</h1>;
+  return <h1>Welcome, {props.name}</h1>;
 }
